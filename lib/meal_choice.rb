@@ -1,4 +1,4 @@
-def meal_choice (arg1, arg2 = "meat")
+def meal_choice (veg1, veg2, protein = "tofu")
   puts "What a nutritious meal!"
-  puts "A plate of tofu with #{arg1} and #{arg2}."
+  puts "A plate of #{protein} with #{veg1} and #{veg2}."
 end
